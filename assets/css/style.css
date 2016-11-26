@@ -192,7 +192,8 @@ a {
 .top img{
 	display: block;
     margin: auto;
-    width: 40%;
+    width:100%;
+		
 }
 .nav {
   position: relative;
