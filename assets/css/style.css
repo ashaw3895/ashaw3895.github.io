@@ -193,7 +193,7 @@ a {
 	display: block;
     margin: auto;
     width:100%;
-		
+
 }
 .nav {
   position: relative;
@@ -231,25 +231,19 @@ ul.topnav li.icon {display: none;}
 
 
 .content {
-  border: 1px solid #white;
-  /*background: white;*/
+  border: 10px solid #white;
+  background-color: white;
   padding: 20px;
   height: 1900px;
+	z-index: 9;
+	position:relative;
+	top:0px;
 }
 
 .search-bar-fixed {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
 }
 
 /* Float the list items side by side */
@@ -271,3 +265,12 @@ ul.topnav li a:hover {font-weight:bold;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
+/*parallax*/
+.parallax {
+    /* other styling */
+		position:fixed;
+    height: 300px;
+    width: 100%;
+    background: url(http://theartmad.com/wp-content/uploads/2015/02/Geometric-Wallpaper-11.jpg);
+    background-size: 100%;
+}
