@@ -271,6 +271,12 @@ ul.topnav li.icon {display: none;}
 		position:fixed;
     height: 300px;
     width: 100%;
-    background: url(http://theartmad.com/wp-content/uploads/2015/02/Geometric-Wallpaper-11.jpg);
-    background-size: 100%;
+
 }
+/* overlay of top image to be gray*/
+/*#overlay{
+	background-color:green;
+	opacity:.3;
+	color:black
+}*/
+/*welcome overlay on top of top image*/
