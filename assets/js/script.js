@@ -86,7 +86,7 @@ function myFunction() {
 // });
 
 
-  //THIS IS NOT A REQUIRED QUESTION
+
   // EXTRA FOR EXPERTS
 
   // Implement a "smooth scroll" when the user clicks on the sidebar links here
