@@ -43,7 +43,12 @@ function parallax() {
     var scrolled = $(window).scrollTop();
     $('.parallax').css('top', -(scrolled * 0.6) + 'px');
   }
-// code here
+function parallax() {
+      /* YOUR CODE HERE */
+      var scrolled = $(window).scrollTop();
+      $('.bottom').css('top', -(scrolled * 0.6) + 'px');
+    }
+// stickynav goddamn why the fuck doesn't it work right now???!??
 var searchBarPosition = $(".nav").offset().top;
 
 $(window).scroll(function() {

@@ -81,11 +81,12 @@ ul.topnav li.icon {display: none;}
 
 .bottom {
 	background-image: url('../img/obrien.jpg');
-	height:700px;
+	height:625px;
 	position:relative;
 	top: 0px;
 	background-size: cover;
 	}
+
 
  /*sticky nav*/
 *{
@@ -98,6 +99,11 @@ ul.topnav li.icon {display: none;}
   z-index:10;
 	text-align: center;
 	border-bottom: 1px solid grey;
+}
+.search-bar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -134,7 +140,7 @@ ul.topnav li.icon {display: none;}
   border: 10px solid #white;
   background-color: white;
   padding: 20px;
-	padding-top:80px;
+	padding-top:50px;
 	z-index: 9;
 	position:relative;
 	top:0px;
