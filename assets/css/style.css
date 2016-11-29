@@ -1,62 +1,3 @@
-/* Please read through the provided code below to understand it */
-
-/* QUESTION #3: PLACE SIDEBAR STYLES BELOW */
-.sidebar-container {
-	transform: translateX(-280px);
-	position: fixed;
-	width:280px;
-	height:100%;
-	background: black;
-	-webkit-transform: translateX(-280px);
-	-moz-transform: translateX(280px);
-	-o-transform: translate(280px);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-}
-.sidebar-item {
-	font-weight:700;
-	font-size:16px;
-	color: white;
-	padding: 15px 20px 15px 20px;
-}
-
-
-
-/* QUESTION #4: PLACE CAROUSEL STYLES BELOW */
-.carousel-container {
-	width:960px;
-	margin:auto;
-	height:100%;
-	overflow:hidden;
-	position:relative;
-}
-
-#carousel {
-	width:400%;
-	height:100%;
-	margin-left:0px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.carousel-item {
-	width:100%;
-	position:relative;
-	height:100%;
-	float:left;
-}
-
-/* QUESTION #5: PLACE "OTHER CSS" STYLES BELOW */
-.section {
-	width: 100%;
-	height:500px;
-	position:relative;
-}
-
-
 /* DOCUMENT SET UP */
 
 body, html {
@@ -85,6 +26,7 @@ a {
 }
 .img-scaled img {
   z-index: 10;
+	height:100px;
 }
 
 .img-scaled-wh {
@@ -93,154 +35,7 @@ a {
 	position: relative;
 }
 
-/* YOU DON'T NEED TO UNDERSTAND THE CODE BELOW */
-
-
-
-/* FREEBIES */
-
-/* Styling the Sidebar Button */
-
-.page-wrapper {
-	height: 100%;
-	width: 100%;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
-}
-
-/* Styling for the carousel previous button */
-#carousel-prev {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    left: 60px;
-    top: 50%;
-    margin-top: -30px;
-    cursor: pointer;
-    z-index: 10;
-    border:solid 2px black;
-    -webkit-transition: all 0.3s;
-}
-
-/* Styling for the carousel next button */
-#carousel-next {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    right: 60px;
-    top: 50%;
-    margin-top: -30px;
-    cursor: pointer;
-    border: solid 2px black;
-    -webkit-transition: all 0.3s;
-    z-index: 10;
-}
-
-/* Styling for the quotes and text in each section */
-/*.quote, .text {
-	position: absolute;
-	font-size: 36px;
-	color: white;
-	font-weight: 700;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-   	transform: translateX(-50%) translateY(-50%);
-}*/
-
-/* Styling for the author text in each quote */
-/*.author {
-	font-size: 12px;
-	font-weight: 700;
-	letter-spacing: .2rem;
-	text-transform: uppercase;
-	margin-top: 10px;
-	text-align: center;
-}*/
-
-/* jQuery Manipulation Classes */
-
-.no-scroll {
-	overflow: hidden;
-}
-
-.wrapper-active, .button-active {
-	-webkit-transform: translateX(280px);
-	-moz-transform: translateX(280px);
-	transform: translateX(280px);
-}
-
-.sidebar-active {
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	-o-transform: translateX(0px);
-}
- /*sticky nav*/
-*{
-  box-sizing: border-box;
-}
-
-.top {
-  background: white;
-  height: 500px;
-}
-
-.top img{
-	display: block;
-    margin: auto;
-    width:100%;
-
-}
-.nav {
-  position: relative;
-  z-index:10;
-	text-align: center;
-}
-
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-/* Float the list items side by side */
-ul.topnav li {float: left;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of links on hover */
-/*ul.topnav li a:hover {color:black;}*/
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-
-
-.content {
-  border: 10px solid #white;
-  background-color: white;
-  padding: 20px;
-  height: 1900px;
-	z-index: 9;
-	position:relative;
-	top:0px;
-}
-
+/*search bar*/
 .search-bar-fixed {
   position: fixed;
   top: 0;
@@ -270,14 +65,194 @@ ul.topnav li.icon {display: none;}
 .parallax {
     /* other styling */
 		position:fixed;
-    height: 300px;
+    height: 350px;
     width: 100%;
+		background-image:url('../img/labimage.jpg');
+			background-repeat: no-repeat;
+		background-size:cover;
 
 }
+/*somehow this keeps the page from collapsing*/
+.top {
+  background: white;
+  height: 350px;
+
+}
+
+.bottom {
+	background-image: url('../img/obrien.jpg');
+	height:700px;
+	position:relative;
+	top: 0px;
+	background-size: cover;
+	}
+
+ /*sticky nav*/
+*{
+  box-sizing: border-box;
+}
+
+
+.nav {
+  position: relative;
+  z-index:10;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;
+position:relative;
+  left:30%}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/*CONTENT DIV THAT HAS EVERY FUCKING THING!!!!*/
+
+.content {
+  border: 10px solid #white;
+  background-color: white;
+  padding: 20px;
+	padding-top:80px;
+	z-index: 9;
+	position:relative;
+	top:0px;
+}
+/*inside content file for the first page*/
+/*all those goddamn fucking titles*/
+.title {
+	font-weight:bold;
+	font-size:25px;
+	margin:20px;
+	text-align: center;
+	margin-bottom:5px;
+}
+
+/*welcome shit*/
+#welcome {
+	margin:20px;
+	padding:20px;
+
+}
+/*latest images shit*/
+/*subtitles*/
+/*.subtitle {
+	font-size:18px;
+	color:white;
+	text-align:center;}*/
+
+
+
+/*.latest-projects img{
+ max-width:350px;
+ max-height:220px;
+ margin-top:20px;}*/
+
+
+/*images for each project*/
+#dehalo {
+	background-image: url('../img/dehalo.jpg');
+}
+
+#anammox {
+	background-image: url('../img/anammox.jpg');
+}
+
+#orgsolv {
+	background-image: url('../img/orgsolv.jpg');
+}
+#afff {
+	background-image: url('../img/afff.jpg');
+}
+#tce {
+	background-image: url('../img/tce.jpg');
+}
+
+.overlay2 {
+	position:relative;
+	float:left;
+	height:100%;
+	width:100%;
+	z-index: 100;
+	background-color:rgba(0,0,0,0.3);
+	font-size:20px;
+	font-weight: lighter;
+	color:rgba(255,255,255,.8);
+	text-align:center;
+	padding-top: 30%;
+}
+
+.latest-projects {
+	display: inline-block;
+	margin-left:15px;
+	height:200px;
+	width:200px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:20px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: center;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	margin-right:15px;
+}
+
+.latest-projects:hover{
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+}
 /* overlay of top image to be gray*/
-/*#overlay{
-	background-color:green;
-	opacity:.3;
-	color:black
-}*/
+#overlay{
+	opacity:.6;
+	margin-top:0;
+	position:absolute;
+	top:0px;
+	height:350px;
+	width:100%;
+	background-color: black;
+	z-index: 5;
+
+}
+/*welcome over image*/
+#welcome{
+
+	color:white;
+	font-size:30px;
+	text-align: center;
+	margin:0;
+	z-index: 50;
+}
+#welcometitle{
+	text-align:center;
+	margin-top:20px;
+	color:white;
+	font-size:60px;
+	text-transform: uppercase;
+
+}
 /*welcome overlay on top of top image*/
