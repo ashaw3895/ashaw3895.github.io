@@ -446,15 +446,18 @@ z-index: 10;}
 /*research*/
 
 .research-topic {
-	margin-top:20px;
+	margin-bottom:20px;
 	margin-left:100px;
 	margin-right:100px;
-	padding:20px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom: 20px;
 	line-height: 2.0em;
 	font-size:18px;
 	word-spacing: 0.1em;
 	width:70%
 }
 .research{
+	margin-top:0px;
 	margin-left:15%;
 }
