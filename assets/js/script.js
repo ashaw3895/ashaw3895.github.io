@@ -89,9 +89,42 @@ function myFunction() {
 //     $(".search-container").addClass("search-bar-fixed");
 //   }
 // });
+// $( ".overlay3" ).hover(
+//   function() {
+//     $( this ).append( $( "overlay3-active" ) );
+//   }, function() {
+//     $( this ).find( "div:last" ).remove();
+//   }
+// );
+//
+// $( "overlay3-active" ).hover(function() {
+//   $( this ).fadeOut( 100 );
+//   $( this ).fadeIn( 500 );
+// });
+// Question 4
+// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
+$("#jen").click(function() {
+    $("#jen-popup.ppl-popup").fadeIn();
+  });
 
+$("#shan").click(function() {
+    $("#shan-popup.ppl-popup").fadeIn();
+  });
 
+$("#ned").click(function() {
+    $("#ned-popup.ppl-popup").fadeIn();
+  });
 
+$(".stock").click(function() {
+    $("#stock-popup.ppl-popup").fadeIn();
+  });
+$("#lisa").click(function() {
+    $("#lisa-popup.ppl-popup").fadeIn();
+  });
+
+$(".button").click(function() {
+    $(".ppl-popup").fadeOut();
+  });
   // EXTRA FOR EXPERTS
 
   // Implement a "smooth scroll" when the user clicks on the sidebar links here
