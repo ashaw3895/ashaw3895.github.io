@@ -5,6 +5,7 @@ function parallax() {
     /* YOUR CODE HERE */
     var scrolled = $(window).scrollTop();
     $('.parallax').css('top', -(scrolled * 0.6) + 'px');
+    $('.parallax-people').css('top', -(scrolled * 0.6) + 'px');
   }
 // stickynav goddamn why the fuck doesn't it work right now???!??
 var searchBarPosition = $(".nav").offset().top;
@@ -30,14 +31,15 @@ function myFunction() {
     }
 };
 
+//doesn't work
+//scroll to contact
+// $("#contactclick").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#contact").offset().top
+//     }, 2000);
+// });
 
-$("#contactclick").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
-    }, 2000);
-});
-
-//
+//pop-up function
 $("#jen").click(function() {
     $("#jen-popup.ppl-popup").fadeIn();
   });
@@ -48,6 +50,9 @@ $("#shan").click(function() {
 
 $("#ned").click(function() {
     $("#ned-popup.ppl-popup").fadeIn();
+  });
+$("#emilycook").click(function() {
+    $("#emilycook-popup.ppl-popup").fadeIn();
   });
 
 $(".stock").click(function() {
@@ -60,8 +65,5 @@ $("#lisa").click(function() {
 $(".button").click(function() {
     $(".ppl-popup").fadeOut();
   });
-  // EXTRA FOR EXPERTS
-
-  // Implement a "smooth scroll" when the user clicks on the sidebar links here
 
 });
