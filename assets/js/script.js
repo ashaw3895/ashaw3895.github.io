@@ -1,53 +1,11 @@
 $(document).ready(function() {
 
-
-//Implement the "slide to left" when the user clicks on #carousel-next here
-//   $('#carousel-next').click(function(){
-//     var m=parseInt($('#carousel').css('margin-left').replace("px", ""));
-//     if (m == -3840) {
-//       return false;
-//     }
-//     else {
-//       $('#carousel').css('margin-left',(m-960)+'px');
-//     };
-//   });
-//
-//   //Implement the "slide to right" when the user clicks on #carousel-prev here
-//   $('#carousel-prev').click(function (){
-//     var m=parseInt($('#carousel').css('margin-left').replace("px", ""));
-//     if (m == 0) {
-//     return false;
-//     }
-//     else {
-//     $('#carousel').css('margin-left',(m+960)+'px')
-//     };
-// });
-// click on -> button:
-//     if at the end of carousel:
-//         set margin-left = 0
-//     else:
-//         set margin-left = current margin-left - 960
-// $('carousel-next').click(function(){
-//   var m=parseInt($('#carousel').css('margin-left').replace("px", ""));
-//   if (m == 0) {
-//   return false;
-//   }
-//   else {
-//   $('#carousel').css('margin-left',(m-960)+'px')
-//   };
-// })
-//sticky nav
-
+// parallax
 function parallax() {
     /* YOUR CODE HERE */
     var scrolled = $(window).scrollTop();
     $('.parallax').css('top', -(scrolled * 0.6) + 'px');
   }
-// function parallax() {
-//       /* YOUR CODE HERE */
-//       var scrolled = $(window).scrollTop();
-//       $('.bottom').css('top', -(scrolled * 0.6) + 'px');
-//     }
 // stickynav goddamn why the fuck doesn't it work right now???!??
 var searchBarPosition = $(".nav").offset().top;
 
@@ -73,36 +31,13 @@ function myFunction() {
 };
 
 
+$("#contactclick").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 2000);
+});
 
-
-// var searchBarPosition = $(".search-container").offset().top;
-
-// $(window).scroll(function() {
-
-//   var currentScroll = $(window).scrollTop();
-//   console.log(currentScroll);
-
-//   if (currentScroll < searchBarPosition) {
-//     console.log("hello");
-//     $(".search-container").removeClass("search-bar-fixed");
-//   } else {
-//     $(".search-container").addClass("search-bar-fixed");
-//   }
-// });
-// $( ".overlay3" ).hover(
-//   function() {
-//     $( this ).append( $( "overlay3-active" ) );
-//   }, function() {
-//     $( this ).find( "div:last" ).remove();
-//   }
-// );
 //
-// $( "overlay3-active" ).hover(function() {
-//   $( this ).fadeOut( 100 );
-//   $( this ).fadeIn( 500 );
-// });
-// Question 4
-// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
 $("#jen").click(function() {
     $("#jen-popup.ppl-popup").fadeIn();
   });

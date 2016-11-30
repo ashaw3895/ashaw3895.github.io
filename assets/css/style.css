@@ -100,7 +100,9 @@ ul.topnav li.icon {display: none;}
 	max-width:60%;
 	text-align: center;
 }
-
+#contactclick {
+	cursor: pointer;
+}
 
 #contactstuff{
 	position: absolute;
@@ -190,7 +192,7 @@ ul.topnav li.icon {display: none;}
 
 /*welcome shit*/
 #welcome {
-	margin:20px;
+	margin:50px;
 	padding:20px;
 
 }
@@ -271,8 +273,10 @@ ul.topnav li.icon {display: none;}
 	color:white;
 	font-size:30px;
 	text-align: center;
-	margin:0;
+	margin-top:15px;
+	margin-left:90px;
 	z-index: 50;
+	line-height: 1.4em;
 }
 #welcometitle{
 	text-align:center;
@@ -406,6 +410,14 @@ z-index: 10;}
 	cursor:pointer;
 }
 /*publications*/
+#welcometitle-publications{
+	text-align:center;
+	margin-top:50px;
+	color:white;
+	font-size:60px;
+	text-transform: uppercase;
+
+}
 .publications{
 	position:relative;
 	left:15%;
