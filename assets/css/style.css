@@ -226,6 +226,7 @@ ul.topnav li.icon {display: none;}
 #bio {
 	padding: 60px;
 	margin: auto;
+	line-height: 1.6;
 }
 
 .overlay-projects-group {
