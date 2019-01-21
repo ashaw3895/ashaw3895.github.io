@@ -203,7 +203,7 @@ ul.topnav li.icon {display: none;}
 }
 
 /*images for each project*/
-#dehalo {
+#puppy {
 	background-image: url('../img/dehalo.jpg');
 }
 
@@ -211,13 +211,13 @@ ul.topnav li.icon {display: none;}
 	background-image: url('../img/anammox.jpg');
 }
 
-#orgsolv {
+#ozonelam {
 	background-image: url('../img/orgsolv.jpg');
 }
-#afff {
+#indoorair {
 	background-image: url('../img/afff.jpg');
 }
-#tce {
+#transpac {
 	background-image: url('../img/tce.jpg');
 }
 /* bio about me section on the index page*/
