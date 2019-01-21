@@ -220,6 +220,9 @@ ul.topnav li.icon {display: none;}
 #tce {
 	background-image: url('../img/tce.jpg');
 }
+#bio {
+	margin: auto;
+}
 
 .overlay-projects-group {
 	position:relative;
