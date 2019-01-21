@@ -45,14 +45,18 @@ a {
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+ul.topnav li {	
+		float: left;
+		list-style: none;
+   		text-align: center;
+}
 
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 30px 16px;
+    padding: 18px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
