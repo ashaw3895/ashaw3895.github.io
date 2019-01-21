@@ -159,7 +159,7 @@ ul.topnav {
 /* Float the list items side by side */
 ul.topnav li {float: left;
 position:relative;
-  left:40%}
+  left:38%}
 
 /* Style the links inside the list items */
 ul.topnav li a {
