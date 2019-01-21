@@ -206,7 +206,7 @@ ul.topnav li.icon {display: none;}
 
 /*images for each project*/
 #puppy {
-	background-image: url('../img/dehalo.jpg');
+	background-image: url('../img/dog.jpg');
 }
 
 #anammox {
@@ -214,13 +214,13 @@ ul.topnav li.icon {display: none;}
 }
 
 #ozonelam {
-	background-image: url('../img/orgsolv.jpg');
+	background-image: url('../img/ozonelam.jpg');
 }
 #indoorair {
-	background-image: url('../img/afff.jpg');
+	background-image: url('../img/indoorair.jpg');
 }
 #transpac {
-	background-image: url('../img/tce.jpg');
+	background-image: url('../img/transpac.jpg');
 }
 /* bio about me section on the index page*/
 #bio {
