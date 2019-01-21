@@ -453,11 +453,11 @@ z-index: 10;}
 /*research*/
 
 .research-topic {
-	margin-bottom:20px;
-	margin-left:100px;
-	margin-right:100px;
+	margin-bottom:10px;
+	margin-left:110px;
+	margin-right:40px;
 	padding-left:20px;
-	padding-right:20px;
+	padding-right:0px;
 	padding-bottom: 20px;
 	line-height: 2.0em;
 	font-size:18px;
