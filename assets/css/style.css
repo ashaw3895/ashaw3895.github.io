@@ -46,9 +46,7 @@ a {
 
 /* Float the list items side by side */
 ul.topnav li {	
-		float: left;
-		list-style: none;
-   		text-align: center;
+		float: right;
 }
 
 /* Style the links inside the list items */
