@@ -222,6 +222,13 @@ ul.topnav li.icon {display: none;}
 #transpac {
 	background-image: url('../img/transpac.png');
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* bio about me section on the index page*/
 #bio {
 	padding: 60px;
