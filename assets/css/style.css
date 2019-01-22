@@ -470,3 +470,12 @@ z-index: 10;}
 	margin-top:0px;
 	margin-left:15%;
 }
+
+/* news */
+.news {
+	border: 25px #A9A9A9;
+	padding: 60px;
+	padding-top: 10px;
+	margin: auto;
+	line-height: 1.6;
+}
