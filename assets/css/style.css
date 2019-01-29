@@ -231,8 +231,8 @@ ul.topnav li.icon {display: none;}
 }
 /* bio about me section on the index page*/
 #bio {
-	padding: 240px;
-	padding-top: 10px;
+	padding: 15%;
+	padding-top: 5%;
 	margin: auto;
 	line-height: 1.6;
 }
