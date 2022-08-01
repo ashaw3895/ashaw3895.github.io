@@ -186,6 +186,7 @@ ul.topnav li.icon {display: none;}
 	top:0px;
 	padding-bottom:100px;
 	overflow-x: hidden;
+	min-height: -webkit-fill-available;
 }
 /*inside content file for the first page*/
 /*all those goddamn fucking titles*/
