@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alvarez-Cohen Lab</title>
+        <title>Ada Shaw</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -15,7 +15,7 @@
         <div class="top2">
           <div class="parallax-people">
             <div id='overlay-people-publications'>
-              <div id='welcometitle-publications'>Recent Publications</div>
+              <div id='welcometitle-publications'>Projects</div>
                <div id="welcome">
                 </div>
            </div>
@@ -25,9 +25,9 @@
          <div class="nav">
            <ul class="topnav" id="myTopnav">
               <li><a href="index.html">Home</a></li>
-              <li><a href="research.html"><b>Research</b></a></li>
-              <li><a href="people.html">People</a></li>
-              <li><a href="publications.html">Publications</a></li>
+              <li><a href="research.html"><b>All Projects</b></a></li>
+              <li><a href="news.html">News</a></li>
+              <!--<li><a href="publications.html">Publications</a></li>-->
               <li><a href="#contact">Contact</a></li>
               <li class="icon">
                 <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
@@ -36,79 +36,146 @@
          </div>
          <div class="content">
            <div class='research'>
-    <div id="orgsolv-active" class="research-topic"></br><h2>1,4-Dioxane and N-Nitrosodimethylamine</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
+    <div><h2><font color='gray'>Recent and Current Projects</font></h2></div>
+    <div id="transpac-active" class="research-topic"></br><h4>Vertical Resolution Requirements to Simulate Transpacific Ozone Pollution, Graduate Research Topic</h4>
+        Observations show that chemical plumes injected to high altitudes (the free troposphere) by
+        convection, volcanoes, or stratospheric intrusions can retain their identity as well-defined
+        vertical layers for a week or more as they are transported on intercontinental scales. Global
+        atmospheric models fail to reproduce these persistent plumes due to rapid numerical diffusion.
+        Under realistic shear flow, plumes filament down to the grid scale where any advection scheme
+        collapses to first order and rapid numerical dissipation occurs. Eastham and Jacob (2017) found
+        that the primary limitation to resolving the plumes was the vertical resolution as General
+        circulation models (GCMs) have prioritized increasing horizontal resolution versus vertical
+        resolution. The new 132-level (L132) GEOS-5 model has potential to improving transport of transcontinental plumes 
+        and better representing intercontinental influences on non-linear surface ozone chemistry. Improvement in transport is
+        evaluated via comparisons between inert tracer plumes simulated in L132 and the 72-level
+        GEOS-5 model (L72). I focus on transpacific Asian pollution plumes transported to North
+        America, for which we have extensive complementary aircraft, satellite, surface measurements
+        and ozonesonde data, to evaluate the L132’s quantification of Asian pollution influence on
+        western US surface ozone. </br>
+        I primarily identified GEOS-5 model bugs, physical inconsistencies and collaborated with NASA scientists to fix and ensure valid model 
+        performance and output. To do this, I developed an understanding of the FORTRAN 77 and 90 model framework and in particular
+        familiarized myself with the code structure of the chemistry and dynamics module.</br>        
+        Languages: Python (for analysis), FORTRAN</br>
+        <a href="ashaw3895.github.io/assets/project_links/October SEAS presentation.gslides" Download>Symposium Presentation on Research</a>
+    </div>
+    <div id="puppy-active" class="research-topic"></br><h4> Dog Prediction Neural Networks, Fall 2018 AC209a</h4>
+        We optimized and compared ResNet’s Neural Networks, Convolutional Neural Networks and Artificial Neural Networks 
+        capabilities to predict the breeds of 20,000+ purebred dogs. We used Keras machine learning to implement and test 
+        our networks.</br>
+        Language: Python</br>
+        <a href="https://ayshaw.github.io/Dog-Breed-Project/">Project Website</a>
+      </div>
+    <div id="ozonelam-active" class="research-topic"></br><h4>Ozone Laminae Prediction Algorithm, Fall 2017 EPS236</h4>
+               I developed an algorithm to detect ozone laminae off the coast of Northern California, using data from Trinidad 
+               Head, CA ozonesondes. The algorithm was able to filter out high frequency noise, define the free troposphere, 
+               recognize high ozone peaks that fit the criteria of free tropospheric ozone laminae. </br>
+               Language: R</br>
+               <a href="ashaw3895.github.io/assets/project_links/Detecting ozone layers from ozonesondes.pptx" Download>
+                   Presentation Download</a>
+    </div>
+    <div class="research-topic"></br><h4>Analysis of Advection Schemes for Application in a Turbulent Propeller Wake, Fall 2018 AM205</h4>
+        We  coded and tested  three  advection  schemes:  Essentially  Non-Oscillating  (ENO),  Superbee,  and  
+        Monotonic upwind Scheme for Conservation Laws (MUSCL) using 1-D and 2-D standard testing methods. We applied the 
+        lowest error  schemes to a steady state velocity field produced by a weather balloon propeller in the stratosphere.
+        </br>
+        Language: python, MATLAB
+    </div>
+    <div class="research-topic"></br><h4>Verification of Goldbach’s Conjecture, Spring 2018 CS205</h4>
+        We designed a simple algorithm in C for verifying Goldbach's conjecture and developed several parallel 
+        implementations of the code to identify the best strategies for tackling the problem as integer size increases. 
+        We tested the following forms of parallelism: OpenMP shared memory parallelism, MPI distributed memory parallelism,
+        Hybrid MPI-OpenMP parallelism, OpenACC GPU accelerated computing. </br>
+        Language: C</br>
+        <a href="https://github.com/ardwwa/Goldbach/blob/master/README.md">Project Website</a> 
+    </div>
+<div><h2><font color="gray">Past Projects</font></h2></div>
+    <div id="anammox-active" class="research-topic"></br><h4>
+             Investigating Extracellular Electron Transpot in Ammonia Oxidizing Bacteria, Undergraduate Research Project</h4>
+             Anaerobic Ammonia Oxidizing Bacteria can anaerobically capture aqueous carbon dioxide and also convert nitrite and 
+             ammonia to dinitrogen. 
 
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
+             Their slow doubling time of 7-22 days, complicated symbiosis with other microbes, and inability to be isolated
+             remains are major hurdles for their usage for both carbon capture and energy efficient wastewater treatment. 
 
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
+             Scientific research in Anammox focuses on optimizing growth situations for their well-being by understanding
+             the carbon fixation pathways, their population dynamics, and exchange of materials between members of the Anammox
+             consortium.
+             
+             Researchers have examined the variation of growth and activity of Anammox with different inorganic or organic 
+             electron donors. 
 
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
+             However, the need for the addition of chemical electron donors could be satisfied by supplying
+             electrons directly via current. 
 
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
+             Extracellular electron transfer (EET) through cellular electron carriers, 
+             notably c-type cytochrome, is used for transfer of electrons between cells and toward the surrounding environment.
+             Specifically, extracellular c-type cytochrome could allow the Anammox cell to utilize the electric current 
+             supplied by electrodes in cellular metabolic processes.
 
+             Extracellular electron transport is attributed to extracellular membrane electron carriers such as quinones 
+             (notably or anthraquinone-2,6-disulfonate (AQDS)), phenazines, flavins (Kotloski & Gralnick, 2013) and heme 
+             proteins (notably c-type cytochrome(Rosenbaum, Aulenta, Villano, & Angenent, 2011)). 
+            
+             Furthermore, these surface electron carriers facilitate the transport of electrons on the surface of the cell to 
+             the internal metabolic processes within the cell(Thrash & Coates, 2008). 
+                
+             The examination of the structure of the Anammox extracellular matrix reveals an abundance of c-type cytochrome. These form the majority of the 
+             extracellular complex, manifesting in the vermillion color of the Anammox aggregate(Kartal et al., 2011). 
+             
+             C-type cytochrome, an electron transport protein in the electron transport chain has been previously 
+             demonstrated to be a feasible extracellular electron carrier in geobacter, desulfovibrio, and various other 
+             denitrifiers(Thrash & Coates, 2008). 
+             
+             </br><img src="ashaw3895.github.io/assets/img/anammox process.png" alt="anammox process", class="center"></br>
+             
+             According to the figure above (de Almeida, Wessels et al. 2016), c-type cytochrome redox is strongly correlated with hydrazine 
+             dehydrogenase and hydrazine synthase. 
+                
+             It may be presumed that the addition of electrons to c-type cytochrome will result in a negative charge 
+             accumulation in the Anammoxosome lumen and result in a stronger proton-motive force to generate more ATP.
 
-<div id="anammox-active" class="research-topic"></br><h2>Ammonia Oxidizing Bacteria</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
+             Previous studies involving extracellular electron transport via electrodes to biofilm bacteria revealed an 
+             increase in population growth and cellular metabolites, which is correlated with discrete current measurements 
+             spanning from 10-100mA (Thrash & Coates, 2008).
+             
+             I applied a series of different currents to an Anammox bioreactor to achieve two purposes: 
+             1) To investigate if adding current to Anammox bacteria could increase the metabolic activity and thus the 
+             nitrogen removal rate and 2) If it did increase the metabolic rate, what is the optimal current for their growth? </br>
+             <!--<a href="ashaw3895.github.io/assets/project_links/Using a Graphite Cathode as an Electron Donor in Anammox Electrolysis Cell to Investigate Extracellular Electron Transfer.docx" Download>
+                 Proposal </a>-->>
+        </div>
 
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
+    <div id="indoorair-active" class="research-topic"></br></br><h4>Indoor Air Quality, Undergraduate Research Project</h4>
+        I determined the volumetric flux above various types of lightbulbs to explore the relationship between flow rate and
+        power consumption. I designed and built a wood/plastic sheet greenhouse structure to prevent outside influence from 
+        introducing artifacts in my data. This work was presented at Spring 2016 UC Berkeley Student Undergraduate Research 
+        Forum</br>
+        Language: MATLAB</br>
+        <a href="ashaw3895.github.io/assets/project_links/Shaw Poster.ppt" Download>Poster Presentation</a>
+      </div>
 
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
+    <div class="research-topic"></br><h4>Biofuels Technology Club, engineer, Spring 2017</h4>
+        The goal of the biofuels technology club is to produce biodiesel from cooking oil from the UC Berkeley Dining Commons.
+        The ultimate goal would be to to first optimise and develop a laboratory scale process and then begin the process of
+        scaling up the project to a pilot plant.
+        Each process: the titration removal of free fatty acids, transesterfication, and water washing needed a team of engineers
+        who were detail-oriented, were self-driven, and would work well with others. I worked with the water washing to 
+        I worked with a team of students on the water washing process: documenting how much water we were using to wash out the
+        glycerol and communicating with downstream processes of quality testing to ensure that our biodiesel product met standards.
+        </br>
+        <a href="https://btc.berkeley.edu/public/tech/index.html">Project Website</a> 
+    </div>
 
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
-
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
-
-
-<div id="dehalo-active" class="research-topic"></br><h2> Dehalogenators</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
-
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
-
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
-
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
-
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
-
-
-<div id="orgsolv-active" class="research-topic"></br></br><h2>1,4-Dioxane and N-Nitrosodimethylamine</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
-
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
-
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
-
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
-
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
-
-
-<div id="afff-active" class="research-topic"></br><h2>AFFF's</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
-
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
-
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
-
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
-
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
-
-
-<div id="tce-active" class="research-topic"></br><h2>TCE bioremediation</h2>Lorem ipsum dolor sit amet, in pri brute solet contentiones, autem feugait mel cu, dicunt efficiendi eos ex. Eu nobis necessitatibus vis. Per fabulas pertinax suscipiantur ad, etiam eleifend nec cu. Vis altera labitur ex. Ei vulputate forensibus pri, eos quot corrumpit interesset ea, quot volumus ut eum. Exerci virtute at sea.
-
-Verear accusamus theophrastus ius no, sea aperiam appareat praesent ea. Ne qui prima cetero oportere, ex has persius epicuri. Nam impedit scaevola ei, ne per amet verear. Has cu harum recteque explicari. Eu sit putant molestiae sententiae. Eu vim possit fuisset.
-
-Apeirian scripserit intellegebat ad mel. Eos id praesent argumentum. Ius mutat zril facete te. Ponderum argumentum id vim, vim id dicit euripidis dissentiunt. No vix accusamus appellantur, verear reformidans at vix. Tantas audire disputando ei duo.
-
-An mutat apeirian mea, id vis latine facilis. Nec malis mazim ocurreret ex, vel no dolorem epicuri, dicit facilisi ad quo. Has an veri ullum dicunt, mei ei dicant epicurei, et cum tantas tractatos. Et exerci adipisci mel, ad sit nostro dolorem albucius. Sed hinc salutandi ut. Ex purto mundi adipiscing nec, eu sea idque dicit scribentur, nam audiam posidonium te. An everti erroribus elaboraret cum.
-
-Per at prompta diceret graecis. Quod animal et vim. Qui ne veri mediocrem scriptorem, erat electram intellegat pro ut. At pro dicta sanctus, porro viris commune qui cu.</div>
 </div>
          </div>
         <div class="bottom">
         <div id="contactstuff">
           <div id="contact"><b>Contact Info</b></div>
-          <img src="assets/img/home.png">329 O'Brien Hall</br>
-          <img src="assets/img/place.png"> Berkeley,California 94720</br>
-          <img src="assets/img/phone.png">(510) 643-5969</br>
-          <img src="assets/img/email.png">alvarez@ce.berkeley.edu</br></div>
+          <img src="assets/img/home.png">110G Pierce Hall</br>
+          <img src="assets/img/place.png"> Cambridge, Massachusetts 02138</br>
+          <!--<img src="assets/img/phone.png">(510) 643-5969</br>-->
+          <img src="assets/img/email.png">ayshaw "at" g "dot" harvard "dot" edu</br></div>
         <div id="myinfo">designed by Ada Shaw 2016. Email ashaw3895@gmail.com for web inquiries.</div>
       </div>
     </body>

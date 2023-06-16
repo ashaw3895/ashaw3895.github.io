@@ -45,14 +45,16 @@ a {
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+ul.topnav li {	
+		float: right;
+}
 
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
@@ -69,7 +71,7 @@ ul.topnav li.icon {display: none;}
 		position:fixed;
     height: 350px;
     width: 100%;
-		background-image:url('../img/labimage.jpg');
+		background-image:url('../img/nice_lake.jpg');
 			background-repeat: no-repeat;
 		background-size:cover;
 
@@ -157,7 +159,7 @@ ul.topnav {
 /* Float the list items side by side */
 ul.topnav li {float: left;
 position:relative;
-  left:30%}
+  left:38%}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -184,6 +186,7 @@ ul.topnav li.icon {display: none;}
 	top:0px;
 	padding-bottom:100px;
 	overflow-x: hidden;
+	min-height: -webkit-fill-available;
 }
 /*inside content file for the first page*/
 /*all those goddamn fucking titles*/
@@ -192,7 +195,7 @@ ul.topnav li.icon {display: none;}
 	font-size:25px;
 	margin:20px;
 	text-align: center;
-	margin-bottom:5px;
+	margin-bottom:0px;
 }
 
 /*welcome shit*/
@@ -203,22 +206,37 @@ ul.topnav li.icon {display: none;}
 }
 
 /*images for each project*/
-#dehalo {
-	background-image: url('../img/dehalo.jpg');
+#puppy {
+	background-image: url('../img/dog.jpeg');
 }
 
 #anammox {
 	background-image: url('../img/anammox.jpg');
 }
 
-#orgsolv {
-	background-image: url('../img/orgsolv.jpg');
+#ozonelam {
+	background-image: url('../img/ozonelam.png');
 }
-#afff {
-	background-image: url('../img/afff.jpg');
+#indoorair {
+	background-image: url('../img/indoorair.png');
 }
-#tce {
-	background-image: url('../img/tce.jpg');
+#transpac {
+	background-image: url('../img/transpac.png');
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* bio about me section on the index page*/
+#bio {
+	padding: 15%;
+	padding-top: 5%;
+	padding-bottom: 8%;
+	margin: auto;
+	line-height: 1.6;
 }
 
 .overlay-projects-group {
@@ -358,7 +376,7 @@ ul.topnav li.icon {display: none;}
     position:fixed;
     height: 100%;
     width: 100%;
-		background-image:url('../img/labimage.jpg');
+		background-image:url('../img/nice_lake.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		/*overflow: hidden;*/
@@ -446,11 +464,11 @@ z-index: 10;}
 /*research*/
 
 .research-topic {
-	margin-bottom:20px;
-	margin-left:100px;
-	margin-right:100px;
+	margin-bottom:10px;
+	margin-left:110px;
+	margin-right:40px;
 	padding-left:20px;
-	padding-right:20px;
+	padding-right:0px;
 	padding-bottom: 20px;
 	line-height: 2.0em;
 	font-size:18px;
@@ -460,4 +478,13 @@ z-index: 10;}
 .research{
 	margin-top:0px;
 	margin-left:15%;
+}
+
+/* news */
+.news {
+	border: 25px #A9A9A9;
+	padding: 60px;
+	padding-top: 10px;
+	margin: auto;
+	line-height: 1.6;
 }
