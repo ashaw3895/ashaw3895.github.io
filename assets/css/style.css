@@ -223,6 +223,26 @@ ul.topnav li.icon {display: none;}
 #transpac {
 	background-image: url('../img/transpac.png');
 }
+#puppy {
+	background-image: url('../img/dog.jpeg');
+}
+
+#coves {
+	background-image: url('../img/coves.png');
+}
+
+#polyreactivity {
+	background-image: url('../img/polyreactivity.png');
+}
+#petase {
+	background-image: url('../img/petase.png');
+}
+#bias {
+	background-image: url('../img/bias.png');
+}
+#ephod {
+	background-image: url('../img/ephod.jpeg');
+}
 
 .center {
   display: block;
